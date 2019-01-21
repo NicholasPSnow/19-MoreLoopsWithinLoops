@@ -58,7 +58,8 @@ def draw_upside_down_wall(rectangle, n, window):
     rectangle.attach_to(window)
     topleftx=rectangle.get_center().x
     toplefty=rectangle.get_center().y-height/2
-    
+
+    #Main loop
     for r in range(1,n):
         topleftx=topleftx-width
         toplefty=toplefty-height
